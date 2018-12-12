@@ -1,9 +1,9 @@
 # Java: A Beginner's Guide
-This repository contains the source code of ___Java: A Beginner's Guide___.
+This repository contains the source code of ___Java: A Beginner's Guide___.  
 
-<hr style="color: deepskyblue">
+---
 
-![java_a-beginners-guide](https://github.com/chioio/java_a-beginners-guide-code/blob/master//images/java_a-beginners-guide.png)  
+<img src="https://github.com/chioio/java_a-beginners-guide-code/row/master//images/java_a-beginners-guide.png" width="300" titile="Java: A Beginner's Guide" alt="Java: A Beginner's Guide">
 
 > Java: A Beginner's Guide  
 
