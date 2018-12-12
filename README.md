@@ -4,7 +4,7 @@ This repository contains the source code of ___Java: A Beginner's Guide___.
 <hr style="color: deepskyblue">
 
 > Java: A Beginner's Guide  
-![Java_A-Beginners-Guide](https://https://github.com/chioio/java_a-beginners-guide-code/Java_A-Beginners-Guide.png)
+![Java_A-Beginners-Guide](https://github.com/chioio/java_a-beginners-guide-code/blob/master//images/java_a-beginners-guide.png)
 
 ```java
 @HelloWorld
