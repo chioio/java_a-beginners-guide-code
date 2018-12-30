@@ -5,8 +5,8 @@ This repository contains the source code of ___Java: A Beginner's Guide___.
 
 ```java
 /*
-    This is a simple Java program
-    Call this file Example.java
+ * This is a simple Java program
+ * Call this file Example.java
  */
 public class Example {
     // A Java program begins with a call to main().
