@@ -2,6 +2,7 @@ package com.chio._1_java_fundamentals;
 
 /*
  * This is a simple Java program.
+ *
  * Call this file Example.java.
  */
 class Example {
@@ -11,7 +12,11 @@ class Example {
     }
 }
 
-/*
+/* ***************************************
+ * Run:
+ *      Java divers the Web.
+ *
+ * ***************************************
  * Follow these three steps:
  * 1.Enter the program.
  * 2.Compile the program. (Command-line: javac Example.java)
@@ -30,5 +35,5 @@ class Example {
  * - In 'main()' there is only one parameter, 'String args[], which declares a parameter
  *   named 'args'. This is an array of objects of type 'String'.(Arrays are collections
  *   of similar objects.)
- *
+ * - Java is case sensitive.
  */
