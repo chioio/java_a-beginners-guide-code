@@ -5,7 +5,7 @@ package com.chio._1_java_fundamentals;
  *
  * Call this file IfDemo.java
  */
-public class IfDemo {
+class IfDemo {
     public static void main(String[] args) {
         int a, b, c;
 
