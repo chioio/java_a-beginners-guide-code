@@ -27,11 +27,12 @@ class ForDemo {
  *      Done!
  *
  * ***************************************
- * The for Loop
- * The simplest form of the 'for' loop is shown here:
+ * The for Loop:
+ *   The simplest form of the 'for' loop is shown here:
  *      for(initialization; condition; iteration) statement;
- *  'condition' is a Boolean expression that tests the loop control variable. If
+ *   'condition' is a Boolean expression that tests the loop control variable. If
  * the outcome of that test is true, statement executes and the 'for' loop continues
  * to iterate(迭代). If it is false, the loop terminates.
- *
+ *   The increment operator is '++';
+ *   The decrement operator is '--';
  */
