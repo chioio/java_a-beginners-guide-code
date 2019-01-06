@@ -11,9 +11,16 @@ class Moon {
         double moonweight;      // weight on moon
 
         earthweight = 100;
-
         moonweight = earthweight * 0.17;
+
         System.out.println(earthweight + " earth-pounds is equivalent to " +
                 moonweight + " moon-pounds.");
     }
 }
+
+/* ***************************************
+ * Run:
+ *      100.0 earth-pounds is equivalent to 17.0 moon-pounds.
+ *
+ * ***************************************
+ */
