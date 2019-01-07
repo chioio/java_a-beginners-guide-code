@@ -29,6 +29,8 @@ class Example2 {
  *   In Java, all variables must be declared before they are used,the assignment
  * operator is the single equal sign. It copies the value on its right side into
  * the variable on its left.
+ * - A variable is a named memory location. The contents of a variable can be
+ * changed during the execution of a program.
  *   To declare a variable you will use a statement like this:
  *      type var-name;
  *   Using the '+' operator, you can chain together as many items as you want
