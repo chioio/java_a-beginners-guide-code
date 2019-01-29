@@ -28,6 +28,6 @@ class NestVar {
  *      This program is in error!
  *      This is count: 3
  *      This program is in error!
- *      ...(Death Circulation)
+ *      ...(Infinite Loop)
  * ***************************************
  */

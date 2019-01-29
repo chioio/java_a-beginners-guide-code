@@ -54,4 +54,7 @@ class _3_1_Help {
  *      }
  *
  * ***************************************
+ * When to use 'if=else-if' and 'switch':
+ *  In general, use an 'if-else-if' ladder when the conditions controlling the
+ * section process do not rely upon a single value.
  */

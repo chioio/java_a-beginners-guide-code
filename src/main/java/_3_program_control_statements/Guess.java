@@ -91,3 +91,58 @@ class Guess_3 {
  * Nested ifs:
  * A nested 'if' is an 'if' statement that is the target of another 'if' or 'else'.
  */
+
+
+// Guess the letter game, 4th version.
+class Guess_4 {
+    public static void main(String[] args)
+            throws java.io.IOException {
+        char ch, ignore, answer = 'K';
+
+        do {
+            System.out.println("I'm thinking of a letter between A and Z.");
+            System.out.print("Can you guess it: ");
+
+            // read a character
+            ch = (char) System.in.read();
+
+            // discard any other characters in the input buffer
+            do {
+                ignore = (char) System.in.read();
+            } while (ignore != '\n');
+
+            if (ch == answer) System.out.println("** Right **");
+            else {
+                System.out.print("...Sorry, you're ");
+                if (ch < answer) System.out.println("too low");
+                else System.out.println("too high");
+                System.out.println("Try again!\n");
+            }
+        } while (answer != ch);
+    }
+}
+
+/* ***************************************
+ * Run:
+ *      I'm thinking of a letter between A and Z.
+ *      Can you guess it: u
+ *      ...Sorry, you're too high
+ *      Try again!
+ *
+ *      I'm thinking of a letter between A and Z.
+ *      Can you guess it: k
+ *      ...Sorry, you're too high
+ *      Try again!
+ *
+ *      I'm thinking of a letter between A and Z.
+ *      Can you guess it:
+ *      \n
+ *      ...Sorry, you're too low
+ *      Try again!
+ *
+ *      I'm thinking of a letter between A and Z.
+ *      Can you guess it: K
+ *      ** Right **
+ *
+ * ***************************************
+ */
