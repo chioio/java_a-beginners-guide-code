@@ -1,6 +1,7 @@
 package _4_intro_classes_objects_methods;
 
 // This program creates two  Vehicle objects.
+// Use a return value.
 
 // This class declares an object of type Vehicle.
 class TwoVehicles {

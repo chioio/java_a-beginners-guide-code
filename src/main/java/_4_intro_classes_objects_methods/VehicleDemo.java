@@ -9,6 +9,22 @@ class Vehicle {
     int passengers; // number of passengers
     int fuelcap;    // fuel(燃料) capacity(容量) in gallons
     int mpg;        // fuel consumption(消耗量) in miles per gallon
+
+    // Add range to Vehicle.
+    // Display the range.
+    void range_1() {
+        System.out.println("Range is " + fuelcap * mpg);
+    }
+
+    // Return the range
+    int range_2() {
+        return mpg * fuelcap;
+    }
+
+    // Compute fuel needed for a given distance
+    double fuelneeded(int miles) {
+        return (double) miles / mpg;
+    }
 }
 
 // This class declares an object of type Vehicle.
