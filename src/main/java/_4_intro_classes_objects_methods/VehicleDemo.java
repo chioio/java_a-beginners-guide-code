@@ -10,6 +10,17 @@ class Vehicle {
     int fuelcap;    // fuel(燃料) capacity(容量) in gallons
     int mpg;        // fuel consumption(消耗量) in miles per gallon
 
+    // Add a constructor.
+    Vehicle() {
+    }
+
+    // This is a constructor for Vehicle.
+    Vehicle(int p, int f, int m) {
+        passengers = p;
+        fuelcap = f;
+        mpg = m;
+    }
+
     // Add range to Vehicle.
     // Display the range.
     void range_1() {

@@ -6,6 +6,10 @@ class MyClass {
     MyClass() {
         x = 10;
     }
+
+    MyClass(int i) {
+        x = i;
+    }
 }
 
 class ConsDemo {

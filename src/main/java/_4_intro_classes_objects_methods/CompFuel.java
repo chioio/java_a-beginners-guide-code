@@ -34,5 +34,4 @@ class CompFuel {
  *      To go 252 miles sportscar needs 21.0 gallons of fuel.
  *
  * ***************************************
- *
  */
