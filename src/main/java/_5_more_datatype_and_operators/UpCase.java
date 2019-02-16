@@ -2,14 +2,31 @@ package _5_more_datatype_and_operators;
 
 // Uppercase letters.
 class UpCase {
+    /**
+     * The value 65503 used in the AND statement is the decimal representation
+     * of 1111 1111 1101 1111. Thus, the AND operation leaves all bits in 'ch'
+     * unchanged except for the 6th one, which is set to 0.
+     *
+     * @param args Command-Line arguments.
+     */
     public static void main(String[] args) {
+        char ch;
 
+        for (int i = 0; i < 10; i++) {
+            ch = (char) ('a' + i);
+            System.out.print(ch);
+
+            // This statement turns off the 6th bit.
+            ch = (char) ((int) ch & 65503);     // ch is now uppercase
+
+            System.out.print(ch + " ");
+        }
     }
 }
 
 /* ***************************************
  * Run:
- *
+ *      aA bB cC dD eE fF gG hH iI jJ
  * ***************************************
  * The Bitwise Operators:
  *  The bitwise operators can be used on values of type 'long, int, short, char,
@@ -38,4 +55,11 @@ class UpCase {
  *       1   |   0   |     0     |     1     |     1     |   0
  *       0   |   1   |     0     |     1     |     1     |   1
  *       1   |   1   |     1     |     1     |     0     |   0
+ *  In terms of its most common usage, you can think of the bit wise AND ase a way
+ * to turn bits off. That is, any bit that is 0 in either operand will cause the
+ * corresponding(相符；相应的) bit in the outcome to be set to 0. For example:
+ *          1 1 0 1 0 0 1 1
+ *       &  1 0 1 0 1 0 1 0
+ *       ------------------
+ *          1 0 0 0 0 0 1 0
  */
